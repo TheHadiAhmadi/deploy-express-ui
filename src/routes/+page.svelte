@@ -30,7 +30,8 @@
 
   async function deploy() {
     console.log(request);
-    if (!request.id || !request.password || !request.code) return;
+
+    if (!request.password || !request.code) return;
 
     result = await api.deploy({
       id: request.id,
