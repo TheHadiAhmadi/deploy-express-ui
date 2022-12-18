@@ -22,8 +22,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@iconify/svelte": "^3.0.1",
 		"@sveltejs/adapter-vercel": "^1.0.0",
-		"@ubeac/svelte": "^0.0.3-next.155",
+		"@svind/svelte": "^0.0.26-next.1",
 		"vite-plugin-windicss": "^1.8.10",
 		"windicss": "^3.5.6"
 	}

@@ -7,11 +7,3 @@ declare namespace App {
   // interface PageData {}
   // interface Platform {}
 }
-
-declare global {
-  namespace svelte.JSX {
-    interface HTMLProps<T> {
-      if?: boolean;
-    }
-  }
-}
